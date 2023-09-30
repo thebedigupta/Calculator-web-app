@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    quotes: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outline{
+    height: 75vh;
+    width: 35vw;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.outline > input{
+    background-color:chartreuse;
+    margin-top:10%;
+    font-size: 2.5vw;
+    font-weight: 900;
+    position: absolute;
+    padding: 3%;
+    width: 80%;
+}
+.btns{
+    padding: 1.5vw;
+    position: absolute;
+
+    margin-top: 25%;
+    width: 80%;
+    height: 70%;
+}
+.btns > #button{
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+.btns > .row > button{
+    font-size: medium;
+    padding: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    text-align: right;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+} */
